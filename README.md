@@ -18,7 +18,7 @@ proyecto:
 Dependencias de producción:
 
 npm install express graphql ncp http graphql-import-node compression cors lodash
-typescript graphql-tools graphql-playground-middleware-express apollo-server-express
+npm install typescript graphql-tools graphql-playground-middleware-express apollo-server-express
 
 Dependencias de desarrollo:
 
