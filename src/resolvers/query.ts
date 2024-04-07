@@ -1,4 +1,4 @@
-import { IResolvers } from '@graphql-tools/utils';
+import { IResolvers } from 'graphql-tools';
 
 const query : IResolvers = {
     Query: {

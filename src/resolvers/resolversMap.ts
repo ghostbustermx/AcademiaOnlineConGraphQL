@@ -1,4 +1,4 @@
-import { IResolvers } from '@graphql-tools/utils';
+import { IResolvers } from 'graphql-tools';
 import query from './query';
 
 const resolversMap : IResolvers = {
