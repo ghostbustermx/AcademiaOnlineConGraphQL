@@ -15,14 +15,11 @@ const servidor = new ApolloServer ({
     introspection: true
 });
 
-
 servidor.applyMiddleware({ app });
-
 
 app.get('/', expressPlayGround ({
     endpoint: '/graphql'
 }));
-
 
 const PORT = 3200;
 
